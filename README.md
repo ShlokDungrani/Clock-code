@@ -1,18 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+      <!DOCTYPE html>
+      <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=, initial-scale=">
-  <title>Clock</title>
-  <style>
+       <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=, initial-scale=">
+       <title>Clock</title>
+      <style>
       body {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
       font-family: "Lato", sans-serif;
-    }
-    #clock {
+      }
+      #clock {
       height: 100vh;
       width: 100%;
       background-color: #14080e;
@@ -21,14 +21,14 @@
       align-items: center;
       justify-content: center;
       font-size: 50px;
-    }
-  </style>
-</head>
+      }
+      </style>
+      </head>
 
-<body>
-  <div id="clock">
-  </div>
-  <script>
+      <body>
+       <div id="clock">
+       </div>
+      <script>
       function clock() {
       let date = new Date();
       let hrs = date.getHours();
@@ -49,11 +49,11 @@
       let time = `${hrs}:${mins}:${secs} ${period}`;
       setInterval(clock, 1000);
       document.getElementById("clock").innerText = time;
-    }
+      }
     
-    clock();
+      clock();
 
-  </script>
-</body>
+      </script>
+     </body>
 
-</html>
+     </html>
