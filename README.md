@@ -7,20 +7,17 @@
        <title>Clock</title>
       <style>
       body {
-      margin: 0;
-      padding: 0;
+      margin: 5;
+      padding: 3;
       box-sizing: border-box;
       font-family: "Lato", sans-serif;
       }
       #clock {
       height: 100vh;
       width: 100%;
-      background-color: #14080e;
-      color: #e9eb9e;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 50px;
+      background-color:#00FFFF;
+      color:#FF8C00;
+      font-size: 100px;
       }
       </style>
       </head>
